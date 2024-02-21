@@ -4,10 +4,11 @@ import {
 	createBrowserRouter,
 	RouterProvider,
 } from 'react-router-dom';
+import { TipoDeFolhaList } from './pages/tipoDeFolha/tipoDeFolhaList';
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <div>Hello world!</div>, 
+		element: <TipoDeFolhaList/>, 
 	},
 ]);
 
