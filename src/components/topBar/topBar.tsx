@@ -12,7 +12,7 @@ export function TopBar(): React.ReactNode {
 	return (
 		<Box>
 			<Box sx={{ flexGrow: 1 }}>
-				<AppBar position="static">
+				<AppBar position='fixed' style={{ backgroundColor: '#3e578d'}}>
 					<Toolbar className='relative flex'>
 						<IconButton
 							size="large"
