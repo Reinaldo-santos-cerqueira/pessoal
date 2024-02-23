@@ -5,10 +5,12 @@ import {
 	RouterProvider,
 } from 'react-router-dom';
 import { TipoDeFolhaList } from './pages/tipoDeFolha/tipoDeFolhaList';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <TipoDeFolhaList/>, 
+		element: <TipoDeFolhaList />, 
 	},
 ]);
 
